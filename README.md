@@ -50,14 +50,13 @@ Define Video Processing Function. This function processes each video, extracts k
 
 Train the models using Pycaret which automatically tests and trains various models and gives the results.
 
-
+<img width="233" alt="/Users/ggm1macbookpro/GGDA/DataAnalytics/capstone_project_surya_namaskar/Capstone Surya Namaskar v2 onwards /delete-gati/Model Selection.png" src="https://github.com/user-attachments/assets/4d01d460-6654-4ae5-be73-7465a5df59e2">
 
 We choose Decision Tree as our prefered model as it was the fastest with highest accuracy. 
 
 
 
-We have created a Streamlit App with the link: [
-](https://yoga-pose-detector.streamlit.app/)
+We have created a Streamlit App with the link:[(https://yoga-pose-detector.streamlit.app/)]
 
 This Streamlit App takes video inputs with a Limit 200MB, mp4,avi,mov,mpeg. 
 For live trials, please ensure your right profile faces the camera, with a distance of approximately 10ft and appropriate lighting. 
