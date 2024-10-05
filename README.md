@@ -35,8 +35,6 @@ Process:
 
 We had the task of converting the 'Surya Namaskar' Yoga pose' into a digtal sequence for the computer model to analyse if its ok or not. In other words we had to convert a one minute video into a digital frame the computer could analyse.
 
-<img width="233" alt="![Surya_Namaskar](https://github.com/user-attachments/assets/aa5c2b50-687b-456e-bbea-f1bb62d574f2)
-" src="https://github.com/user-attachments/assets/4d01d460-6654-4ae5-be73-7465a5df59e2">
 
 <img width="233" alt="Screenshot 2024-09-11 at 6 43 29 AM" src="https://github.com/user-attachments/assets/4d01d460-6654-4ae5-be73-7465a5df59e2">
 
