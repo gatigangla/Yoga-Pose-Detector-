@@ -35,7 +35,8 @@ Process:
 
 We had the task of converting the 'Surya Namaskar' Yoga pose' into a digtal sequence for the computer model to analyse if its ok or not. In other words we had to convert a one minute video into a digital frame the computer could analyse.
 
-
+<img width="233" alt="![Surya_Namaskar](https://github.com/user-attachments/assets/aa5c2b50-687b-456e-bbea-f1bb62d574f2)
+" src="https://github.com/user-attachments/assets/4d01d460-6654-4ae5-be73-7465a5df59e2">
 
 <img width="233" alt="Screenshot 2024-09-11 at 6 43 29 AM" src="https://github.com/user-attachments/assets/4d01d460-6654-4ae5-be73-7465a5df59e2">
 
@@ -47,6 +48,23 @@ Our videos were 1 minute long with a frame rate of 30 fps(frames per second), so
 We will set a counter to track the number of frames processed by the code, as it loops through the video,  frame_index is incremented after each frame is read in the video. It’s used to determine, which frames to process, based on our conditions, e.g. every 60th frame.
 
 This way we extracted 30 frames from each video.
+Define Video Processing Function. This function processes each video, extracts keypoints, and appends the results to the CSV file. Here we process every 60th frames(roughly every 2 seconds) upto max 1800th frames with YOLOv8. Every 60th frame is analysed using YOLO model to detect and track objects, and only objects with 50% or higher confidence score are considered valid. Extract keypoint coordinates and store the results in CSV file and flatten.
+
+
+Train the models using Pycaret which automatically tests and trains various models and gives the results.
+<img width="233" alt="![Uploading Model Selection.png…]()
+" src="https://github.com/user-attachments/assets/4d01d460-6654-4ae5-be73-7465a5df59e2">
+
+
+We choose Decision Tree as our prefered model as it was the fastest with highest accuracy. 
+
+
+
+We have created a Streamlit App with the link: [
+](https://yoga-pose-detector.streamlit.app/)
+
+This Streamlit App takes video inputs with a Limit 200MB, mp4,avi,mov,mpeg. 
+For live trials, please ensure your right profile faces the camera, with a distance of approximately 10ft and appropriate lighting. 
 
 
 
